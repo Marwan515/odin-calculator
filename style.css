@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    animation: anims 100s infinite;
+}
+
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 2px solid;
+    width: 450px;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: darkslategrey;
+    box-shadow: 12px 12px 12px 12px steelblue;
+    
+}
+
+.texs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    margin: 10px;
+    width: 65px;
+    height: 40px;
+    background-color: coral;
+    box-shadow: 3px 3px red;
+}
+
+#screen {
+    width: 450px;
+    height: 75px;
+    border: solid 2px black;
+    background-color: lawngreen;
+    margin-bottom: 5px;
+    box-shadow: 12px 12px 12px 12px chartreuse;
+}
+
+#equal {
+    width: 130px;
+}
+
+.clear {
+    width: 100px;
+}
+
+.backS {
+    width: 100px;
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+@keyframes anims {
+    0% {background-color: aqua;}
+    25% {background-color: chartreuse;}
+    50% {background-color: darkslategray;}
+    75% {background-color: coral;}
+    100% {background-color: black; color: white;}    
+}
+
+.endim {
+    margin-top: 35px;
+    text-align: center;
+    animation: git 30s infinite;
+    margin-bottom: 0px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+@keyframes git {
+    0% {background-color: red;}
+    15% {background-color: blueviolet;}
+    30% {background-color: darkcyan;}
+    45% {background-color: forestgreen;}
+    60% {background-color: mediumvioletred;}
+    75% {background-color: slategrey;}
+    90% {background-color: white;}
+    100% {background-color: beige;}
+}
